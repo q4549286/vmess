@@ -5,14 +5,18 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+  'cfip.xxxxxxxx.tk:8443#优选域名-OTC',
+  'cf.090227.xyz#优选域名-CM',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'https://ct.xxxxxxxx.tk', //可参考内容格式 自行搭建。
+	'https://addressesapi.090227.xyz/ct', //可参考内容格式 自行搭建。
+	'https://addressesapi.090227.xyz/CloudFlareYes', 
+	'https://raw.githubusercontent.com/q4549286/dingyueqi/main/addressesapi.txt',
+	'https://zzzzzz.rr.nu',
+];
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
