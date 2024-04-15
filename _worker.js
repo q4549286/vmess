@@ -14,6 +14,7 @@ let addressesapi = [
 	'https://ct.xxxxxxxx.tk', //可参考内容格式 自行搭建。
 	'https://addressesapi.090227.xyz/ct', //可参考内容格式 自行搭建。
 	'https://addressesapi.090227.xyz/CloudFlareYes', 
+	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt',
 	'https://raw.githubusercontent.com/q4549286/dingyueqi/main/addressesapi.txt',
 	'https://zzzzzz.rr.nu',
 ];
